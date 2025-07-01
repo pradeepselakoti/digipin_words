@@ -1,0 +1,16 @@
+
+Step 1:Open Command Prompt / Terminal.  
+Step 2: Navigate to your project folder:
+```bash
+cd path/to/digipin-3words
+
+
+
+✅ To convert coordinates to 3 words:
+
+python digipin_words.py encode --lat 22.3215616 --lon 70.7657728
+
+
+✅ To convert 3 words back to coordinates:
+
+python digipin_words.py decode --w1 crow --w2 place --w3 whale
